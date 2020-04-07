@@ -1,0 +1,121 @@
+
+
+
+body, html {
+    margin: 0;
+}
+
+
+header {
+    position : absolute ;
+    padding : 1em ;
+    z-index: 20;
+    display: flex;
+    justify-content: space-between;
+    width: calc( 100% - 2em);
+    background: white;
+
+  
+    a.logo {
+
+        font-weight: bold;
+        text-transform: uppercase;
+
+    }
+
+  
+
+.wrapper{
+
+    display: grid;
+    grid-template-columns:  auto;
+
+    section {
+        padding: 3em;
+         
+        h1,h2,.read-btn {
+text-transform: uppercase;
+margin: 0;
+    }
+    h1{
+        color:rgb(235, 228, 135);
+        font-size: 2.4rem;
+    }
+
+    h2{
+        font-size: 1.4rem;
+    }
+.read-btn{
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold ;
+
+}
+.primary{
+ padding: 1em;
+ background-position: 3em;
+ border: 1px solid gray;
+ display: inline-block;
+ margin-top: 3em;
+ margin-left: -3em;
+
+}
+
+
+
+}
+section.hero {
+    padding-top: 8em;
+    background : url('../images/hero.jpg');
+background-size: cover ;
+
+
+
+p {
+    width:  70%;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    color:skyblue;
+}
+}
+section.sidebar, section.subscribe{
+
+font-size: .9rem;
+line-height: 1.6rem;
+
+}
+ section.sidebar {
+
+    background: skyblue;
+
+
+
+    .read-btn { 
+        margin-top: 2em;
+        display: block;
+        background-position: 0 .2em;
+         
+    }
+ }
+ section.subscribe{
+     input{
+         width: calc(100% - 2em);
+         padding: 1em;
+         font-family: 'Montserrat';
+         margin-bottom: 1em;
+     }
+
+     button {
+         width: 100%;
+         background: peru ;
+         color: $submit-btn-color;
+         padding: 1em;
+         border: none;
+         font-family: 'Montserrat';
+     }
+ }
+
+
+}
+}
